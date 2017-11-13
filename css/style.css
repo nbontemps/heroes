@@ -1,0 +1,169 @@
+/* Colors:
+  basics : #18a59b
+  bleu dégradé : 3eb4e6
+*/
+
+@font-face {
+    font-family: Baffled;
+    src: url(../fonts/Baffled-Regular.woff);
+}
+
+body {
+  background-image: linear-gradient(rgba(24, 165, 155, 0.6), rgba(62, 180, 230, 0.6)), url('D:/OneDrive/Documents/Heroes.social/Landing Page Heroes/img/hero-image.jpeg');
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+  padding: 20px 0 20px;
+
+}
+
+.navbar-brand {
+  background: url(D:/OneDrive/Documents/Heroes.social/fwdbriefheroes/fwdbriefheroes/LOGO2.png) center / contain no-repeat;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 120px 0 0 0;
+}
+
+#title {
+  padding-bottom: 120px;
+}
+
+.newsletter {
+  text-align: center;
+  padding: 120px 0 0 0;
+}
+
+.header h1 {
+  color: white;
+  font-family: 'Baffled';
+  font-size: 6em;
+}
+
+.header h2 {
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+#play {
+  width: 100%;
+  height: auto;
+  padding: 100px 0 100px;
+}
+
+/*#play:hover{
+  color: #18a59b;
+}*/
+
+#play_button {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*padding: 150px 0 150px;*/
+}
+
+/**/
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-content {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: black;
+}
+
+.modal-body{
+  height: 100%;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  position: absolute;
+  background-color: black;
+  height: 100%;
+
+}
+
+#video_land{
+  width: 100%;
+  height: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/*
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.video-container video {
+
+  min-width: 100%;
+  min-height: 100%;
+
+
+  width: auto;
+  height: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}*/
+
+@media screen and (max-width: 700px){
+  .header h1{
+  font-size: 3.5em;
+  }
+  .header h2{
+  font-size: 1.5em;
+  }
+}
