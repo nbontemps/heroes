@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(24, 165, 155, 0.6), rgba(62, 180, 230, 0.6)), url('D:/OneDrive/Documents/Heroes.social/Landing Page Heroes/img/hero-image.jpeg');
+  background-image: linear-gradient(rgba(24, 165, 155, 0.6), rgba(62, 180, 230, 0.6)), url('../img/hero-image.jpeg');
   background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -25,7 +25,7 @@ body {
 }
 
 .navbar-brand {
-  background: url(D:/OneDrive/Documents/Heroes.social/fwdbriefheroes/fwdbriefheroes/LOGO2.png) center / contain no-repeat;
+  background: url('../img/LOGO2.png') center / contain no-repeat;
   position: absolute;
   width: 100%;
   left: 0;
