@@ -34,18 +34,18 @@ body {
 
 .header {
   text-align: center;
-  padding: 7% 0 7% 0;
+  padding: 10vh 0 0 0;
   vertical-align: middle;
 
 }
 
 #title {
-  padding-bottom: 120px;
+  padding-bottom: 15vh;
 }
 
 .newsletter {
   text-align: center;
-  padding: 120px 0 0 0;
+  padding: 16vh 0 0 0;
 }
 
 .header h1 {
@@ -70,7 +70,7 @@ body {
 }
 
 #play_button {
-  width: 40%;
+  height: 30vh;
   position: absolute;
   top: 50%;
   left: 50%;
