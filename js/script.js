@@ -12,6 +12,8 @@ $(document).ready(function(){
   //     $("#video_land").css("width",$(window).width());
   //   }
   // });
+  $("#play_button").attr("src", "img/Bouton_Logo2Play2Logo.gif");
+
   $("#play_button").hover(function(){
     $(this).attr("src", "img/Bouton_Logo2Play.gif");
   },function() {
