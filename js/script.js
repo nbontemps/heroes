@@ -13,9 +13,9 @@ $(document).ready(function(){
   //   }
   // });
   $("#play_button").hover(function(){
-    $(this).attr("src", "img/Bouton_Play2Logo.gif");
-  },function() {
     $(this).attr("src", "img/Bouton_Logo2Play.gif");
+  },function() {
+    $(this).attr("src", "img/Bouton_Play2Logo.gif");
   });
 
   $("#videoModal").on('shown.bs.modal', function () {
