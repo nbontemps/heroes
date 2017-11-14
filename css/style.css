@@ -73,92 +73,86 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  /*padding: 150px 0 150px;*/
 }
 
-/**/
-.modal {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-}
-
-.modal-dialog {
-  position: fixed;
-  margin: 0;
+#video_land {
+  height: 100vh;
   width: 100%;
-  height: 100%;
-  padding: 0;
 }
-
-.modal-content {
-  position: absolute;
+.modal-body {
   padding: 0;
+  margin: 0;
+}
+.close {
+  color: white;
+  position: absolute;
+  /* background: blue !important; */
+  border: 0;
   top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: 0;
+  z-index: 99999;
+  right: 3%;
+  float: none;
+  opacity: 1;
+  font-size: 40px;
+  font-weight: 400;
+}
+.modal-footer {
+  text-align: initial;
+}
+.modal-transparent {
+  background: transparent;
+}
+.modal-transparent .modal-content {
+  background: transparent;
+}
+.modal-backdrop.modal-backdrop-transparent {
+  background: #fff;
+}
+.modal-backdrop.modal-backdrop-transparent.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #fff;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+.modal-fullscreen {
+  background: transparent;
+}
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
   box-shadow: none;
-  background-color: black;
 }
-
-.modal-body{
-  height: 100%;
-}
-
-.modal-dialog {
-  width: 100%;
-  height: 100%;
+.modal-fullscreen .modal-dialog {
   margin: 0;
-  padding: 0;
-}
-
-.modal-content {
-  position: absolute;
-  background-color: black;
-  height: 100%;
-
-}
-
-#video_land{
+  margin-right: auto;
+  margin-left: auto;
   width: 100%;
-  height: auto;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 }
-/*
-.video-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+    width: 100%;
+  }
+}
+html {
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  padding: 0;
+  display: table;
 }
-
-.video-container video {
-
-  min-width: 100%;
-  min-height: 100%;
-
-
-  width: auto;
-  height: auto;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}*/
 
 @media screen and (max-width: 700px){
   .header h1{
