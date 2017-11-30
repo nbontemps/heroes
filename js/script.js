@@ -19,24 +19,4 @@ $(document).ready(function(){
   },function() {
     $(this).attr("src", "img/Bouton_Play2Logo.gif");
   });
-
-  $("#videoModal").on('shown.bs.modal', function () {
-    video_land.load();
-  });
-
-  $("#videoModal").on('shown.bs.modal', function () {
-    video_land.play();
-  });
-
-  $("#videoModal").on('hide.bs.modal', function () {
-    video_land.pause();
-  });
-
-  $("#videoModal").click(function () {
-    if (video_land.muted === true) {
-      video_land.muted = false;
-    } else {
-      video_land.muted = true;
-    }
-  });
 });
